@@ -9,7 +9,7 @@
 3. [Additional Material](#material)
 4. [Important Files](#importantfiles)
 5. [Acknowledgement](#acknowledgement)
-6. [Screenshots] (#screenshots)
+6. [Screenshots](#screenshots)
 
 
 <a name="descripton"></a>
