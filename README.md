@@ -28,7 +28,7 @@ This project is divided in the following key sections:
 
 <a name="dependencies"></a>
 ### Dependencies
-* Python 3.7+
+* Python 3.8
 * Natural Language Process Libraries: `NLTK`
 * SQLlite Database Libraqries: `SQLalchemy`
 * Machine Learning Libraries: `NumPy`, `Pandas`, `Scikit-Learn`
@@ -47,11 +47,11 @@ git clone https://github.com/hwdsda/Udacity-disaster-response-pipelines.git
 
 1. Run the following commands in the project's root directory to set up your database and model.
 
-- To run ETL pipeline that cleans data and stores in database\
+- To run ETL pipeline that cleans data and stores in database
 ```
 python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 ```
-- To run ML pipeline that trains and saves classifier\
+- To run ML pipeline that trains and saves classifier
 ```
 python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
 ```
