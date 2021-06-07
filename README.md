@@ -47,9 +47,9 @@ git clone https://github.com/hwdsda/Udacity-disaster-response-pipelines.git
 
 1. Run the following commands in the project's root directory to set up your database and model.
 
-    - To run ETL pipeline that cleans data and stores in database
+    - To run ETL pipeline that cleans data and stores in database\
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves
+    - To run ML pipeline that trains and saves classifier\
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
 2. Run the following command in the app's directory to run your web app.
@@ -97,3 +97,9 @@ You can use **ML Pipeline Preparation Notebook** to re-train the model or tune i
 
 4. An overview of training dataset.
 ![Overview](screenshots/overview_training_set.PNG)
+
+5. Extract, transform and load dataset.
+![ETL](screenshots/etl.PNG)
+
+6. Train, evaluate and save model.
+![ML](screenshots/ml.PNG)

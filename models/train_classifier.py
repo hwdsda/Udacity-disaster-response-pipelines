@@ -15,7 +15,7 @@ from nltk.stem import WordNetLemmatizer
 
 from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
+from sklearn.metrics import f1_score, classification_report
 from sklearn.model_selection import GridSearchCV
 from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
 from sklearn.base import BaseEstimator, TransformerMixin
@@ -123,16 +123,16 @@ def build_model():
 def evaluate_model(model, X_test, Y_test, category_names):
     y_pred_test = model.predict(X_test)
     
-    print(classification_report(Y_test.values, y_pred_test, target_names=category_names, zero_division=1))
+    #print(classification_report(Y_test.values, y_pred_test, target_names=category_names, zero_division=1))
     
-    #f1_scores = []
-    #for ind, cat in enumerate(Y_test):
-    #    print('Class - {}'.format(cat))
-    #    print(classification_report(Y_test.values[ind], y_pred[ind], zero_division = 1))
+    f1_scores = []
+    for ind, cat in enumerate(Y_test):
+        print('Class - {}'.format(cat))
+        print(classification_report(Y_test.values[ind], y_pred_test[ind], zero_division = 1))
     
-    #    f1_scores.append(f1_score(Y_test.values[ind], y_pred[ind], zero_division = 1))
+        f1_scores.append(f1_score(Y_test.values[ind], y_pred_test[ind], zero_division = 1))
   
-    #print('Trained Model\nMinimum f1 score - {}\nBest f1 score - {}\nMean f1 score - {}'.format(min(f1_scores), max(f1_scores), round(sum(f1_scores)/len(f1_scores), 3)))
+    print('Trained Model\nMinimum f1 score - {}\nBest f1 score - {}\nMean f1 score - {}'.format(min(f1_scores), max(f1_scores), round(sum(f1_scores)/len(f1_scores), 3)))
     print("\nBest Parameters:", model.best_params_)
 
 
