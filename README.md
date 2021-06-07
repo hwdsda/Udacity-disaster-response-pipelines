@@ -96,4 +96,4 @@ You can use **ML Pipeline Preparation Notebook** to re-train the model or tune i
 ![Category output](screenshots/category_output.PNG)
 
 4. An overview of training dataset.
-![Overview](screenshots/overview_training_set)
+![Overview](screenshots/overview_training_set.PNG)
