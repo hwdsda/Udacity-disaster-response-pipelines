@@ -15,7 +15,7 @@
 <a name="descripton"></a>
 ## Description
 
-This repository contains the source code for Disaster Response Pipeline project. This Project is part of Data Science Nanodegree Program by[Udacity](https://www.udacity.com/course/data-scientist-nanodegree--nd025) in collaboration with [Figure Eight](https://www.figure-eight.com/). The dataset contains pre-labelled tweet and messages from real-life disaster events. The objective of this project is to build a Natural Language Processing (NLP) model and create a web app to categorize real disaster messages.
+This repository contains the source code for Disaster Response Pipeline project. This Project is part of Data Science Nanodegree Program by [Udacity](https://www.udacity.com/course/data-scientist-nanodegree--nd025) in collaboration with [Figure Eight](https://www.figure-eight.com/). The dataset contains pre-labelled tweet and messages from real-life disaster events. The objective of this project is to build a Natural Language Processing (NLP) model and create a web app to categorize real disaster messages.
 
 This project is divided in the following key sections:
 
@@ -29,11 +29,11 @@ This project is divided in the following key sections:
 <a name="dependencies"></a>
 ### Dependencies
 * Python 3.7+
-* Natural Language Process Libraries: NLTK
-* SQLlite Database Libraqries: SQLalchemy
-* Machine Learning Libraries: NumPy, Pandas, Scikit-Learn
-* Model Loading and Saving Library: Pickle
-* Web App and Data Visualization: Flask, Plotly
+* Natural Language Process Libraries: `NLTK`
+* SQLlite Database Libraqries: `SQLalchemy`
+* Machine Learning Libraries: `NumPy`, `Pandas`, `Scikit-Learn`
+* Model Loading and Saving Library: `Pickle`
+* Web App and Data Visualization: `Flask`, `Plotly`
 
 <a name="installation"></a>
 ### Installation
