@@ -11,7 +11,6 @@
 5. [Acknowledgement](#acknowledgement)
 6. [Demo](#demo)
 
-
 <a name="descripton"></a>
 ## Description
 
@@ -28,6 +27,7 @@ This project is divided in the following key sections:
 
 <a name="dependencies"></a>
 ### Dependencies
+
 * Python 3.8
 * Natural Language Process Libraries: `NLTK`
 * SQLlite Database Libraqries: `SQLalchemy`
